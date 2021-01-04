@@ -1,0 +1,14 @@
+
+@import "variables";
+@import "~bootstrap/scss/bootstrap.scss"; 
+ 
+.navbar-dark .navbar-nav .nav-link {
+    color: $secondary;
+}
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: $primary;
+    font-weight: 700;
+}
